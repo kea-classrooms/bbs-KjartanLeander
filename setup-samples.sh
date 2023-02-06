@@ -14,7 +14,7 @@ echo "$id" >> "$id.txt"
 done
 
 cd countries
-for id in "${COUNTRIES[@]}""
+for id in "${COUNTRIES[@]}"
 do
 echo "$id" >> "$id.txt"
 done
